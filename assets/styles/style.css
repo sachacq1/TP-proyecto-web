@@ -79,9 +79,11 @@ header a:hover {
     filter: drop-shadow(2px 5px 150px #f0ffff54);
 }
 
-.categories {
+
+.cont-cards {
     background-color: var(--second-color);
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     min-height: 100vh;
     justify-content: space-around;
     align-items: center;
@@ -108,8 +110,6 @@ header a:hover {
 
 
 .categories .card {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     width: 400px;
     height: 450px;
@@ -155,12 +155,12 @@ header a:hover {
 
 }
 
+
 .cont-card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     padding: 50px;
-
 }
 
 .product .card {
@@ -349,3 +349,43 @@ footer li a {
     transform: scale(1.8);
     filter: drop-shadow(2px 2px 15px gainsboro)
 }
+
+@media (max-width:880px) {
+
+    .cont-card,
+    .cont-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr
+    }
+
+    .whatsapp {
+        top: 75%;
+        left: 70%;
+    }
+
+    @media (max-width:440px) {
+
+        .cont-card,
+        .cont-cards {
+            display: grid;
+            grid-template-columns: 1fr
+        }
+
+        .banner h1 {
+            font-size: 30px;
+        }
+
+        .banner p {
+            font-size: 15px;
+        }
+
+        .banner img {
+            width: 50%;
+            height: 50%;
+        }
+
+        .whatsapp {
+            top: 80%;
+            left: 70%;
+        }
+    }
