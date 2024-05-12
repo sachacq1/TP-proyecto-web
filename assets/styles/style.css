@@ -11,9 +11,6 @@
     --second-font: "Sedan SC", serif;
 }
 
-html {
-    scroll-behavior: smooth;
-}
 
 header {
     display: flex;
@@ -43,7 +40,7 @@ header a {
 }
 
 header a:hover {
-    color: var(--second-color);
+    color: yellow;
 }
 
 .banner {
@@ -345,4 +342,10 @@ footer li a {
     position: fixed;
     top: 70%;
     left: 90%;
+    transition: 0.3s transform;
+}
+
+.whatsapp:hover {
+    transform: scale(1.8);
+    filter: drop-shadow(2px 2px 15px gainsboro)
 }
