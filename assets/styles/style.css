@@ -52,8 +52,8 @@ header a:hover {
 
 }
 
-.banner .card {
-    width: 50%;
+.banner div {
+    width: 70%;
     color: var(--second-color);
     margin-left: 30px;
 }
