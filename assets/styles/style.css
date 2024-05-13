@@ -22,11 +22,7 @@ header {
 
 header nav ul {
     display: flex;
-}
-
-header li {
     list-style: none;
-
 }
 
 header a {
@@ -55,7 +51,7 @@ header a:hover {
 .banner div {
     width: 40%;
     color: var(--second-color);
-    margin-left: 15px;
+    margin-left: 30px;
 }
 
 .banner h1 {
@@ -75,6 +71,9 @@ header a:hover {
 }
 
 .banner img {
+    width: 50%;
+    height: 50%;
+
     margin: auto;
     filter: drop-shadow(2px 5px 150px #f0ffff54);
 }
@@ -111,8 +110,9 @@ header a:hover {
 
 .categories .card {
     align-items: center;
-    width: 400px;
-    height: 450px;
+    width: 80%;
+    height: 80%;
+    margin: auto;
     border: 1px solid rgba(46, 45, 45, 0.068);
     border-radius: 10px;
     background-color: rgba(108, 112, 112, 0.027);
@@ -129,8 +129,9 @@ header a:hover {
     font-family: var(--primary-font);
     font-size: 45px;
     color: rgba(255, 255, 255, 0.897);
-    z-index: 2;
+    z-index: 1;
     position: relative;
+    text-align: center;
     top: 50%;
     bottom: 50%;
     text-shadow: 1px 1px 9px black;
@@ -166,8 +167,8 @@ header a:hover {
 .product .card {
     background-color: rgba(6, 81, 146, 0.041);
     border: 1px solid rgba(0, 0, 0, 0.13);
-    width: 350px;
-    height: 380px;
+    width: 80%;
+    height: 400px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -278,7 +279,7 @@ form textarea {
 
 
 .skewed {
-    background: #3498db;
+    background: var(--primay-color);
     position: relative;
     padding: 5px 10px 40px 10px;
     width: 100%;
@@ -363,36 +364,30 @@ footer li a {
         left: 70%;
     }
 
-    .banner img {
-        width: 50%;
-        height: 50%;
-    }
+    @media (max-width:440px) {
 
-}
+        .cont-card,
+        .cont-cards {
+            display: grid;
+            grid-template-columns: 1fr
+        }
 
-@media (max-width:480px) {
+        .banner h1 {
+            font-size: 30px;
+        }
 
-    .cont-card,
-    .cont-cards {
-        display: grid;
-        grid-template-columns: 1fr
-    }
+        .banner p {
+            font-size: 15px;
+        }
 
-    .banner h1 {
-        font-size: 30px;
-    }
+        .banner img {
+            width: 50%;
+            height: 50%;
+        }
 
-    .banner p {
-        font-size: 15px;
-    }
-
-    .banner img {
-        width: 50%;
-        height: 50%;
-    }
-
-    .whatsapp {
-        top: 80%;
-        left: 70%;
+        .whatsapp {
+            top: 80%;
+            left: 70%;
+        }
     }
 }
