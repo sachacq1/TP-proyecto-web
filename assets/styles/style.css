@@ -110,8 +110,8 @@ header a:hover {
 
 .categories .card {
     align-items: center;
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     margin: auto;
     border: 1px solid rgba(46, 45, 45, 0.068);
     border-radius: 10px;
@@ -140,13 +140,12 @@ header a:hover {
 .categories .card p {
     font-family: var(--second-font);
     font-weight: 500;
-    width: 80%;
-    text-align: center;
+    width: 70%;
     margin: auto;
+    align-items: center;
     font-size: 15px;
     font-weight: 300;
     color: rgb(29, 28, 28);
-    margin-top: 30px;
 
 }
 
@@ -192,7 +191,7 @@ header a:hover {
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
@@ -316,7 +315,7 @@ footer li {
     margin-left: 20px;
     list-style: none;
     border: 2px solid beige;
-    width: 150px;
+    width: 170px;
     border-radius: 5px;
     background-color: rgba(240, 255, 255, 0.151);
 
@@ -364,8 +363,9 @@ footer li a {
     }
 
     .categories .card p {
+        width: 100%;
+        margin: 0 auto 60px auto;
 
-        margin-top: 70px;
     }
 
     .whatsapp {
@@ -387,7 +387,11 @@ footer li a {
     }
 
 
+    .categories .card p {
+        width: 100%;
+        margin: 0 auto 20px auto;
 
+    }
 
 
     .categories .card img {
@@ -406,8 +410,6 @@ footer li a {
         width: 50%;
         height: 50%;
     }
-
-    .product {}
 
     .whatsapp {
         top: 80%;
