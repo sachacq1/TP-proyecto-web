@@ -362,8 +362,8 @@ footer li a {
         font-size: 35px
     }
 
-    .categories .card {
-        height: 95%;
+    .categories .cardgit img {
+        width: 50%;
     }
 
     .categories .card p {
