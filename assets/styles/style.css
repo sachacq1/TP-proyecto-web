@@ -359,6 +359,15 @@ footer li a {
         grid-template-columns: 1fr 1fr
     }
 
+    .categories .card h2 {
+        font-size: 35px
+    }
+
+    .categories .card p {
+
+        margin-top: 70px;
+    }
+
     .whatsapp {
         top: 75%;
         left: 70%;
@@ -373,6 +382,18 @@ footer li a {
         grid-template-columns: 1fr
     }
 
+    .categories .card h2 {
+        font-size: 35px
+    }
+
+
+
+
+
+    .categories .card img {
+        width: 30%;
+    }
+
     .banner h1 {
         font-size: 30px;
     }
@@ -385,6 +406,8 @@ footer li a {
         width: 50%;
         height: 50%;
     }
+
+    .product {}
 
     .whatsapp {
         top: 80%;
