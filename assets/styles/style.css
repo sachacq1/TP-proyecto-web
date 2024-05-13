@@ -362,9 +362,13 @@ footer li a {
         font-size: 35px
     }
 
+    .categories .card {
+        height: 95%;
+    }
+
     .categories .card p {
         width: 100%;
-        margin: 0 auto 60px auto;
+        margin: 0 auto 30px auto;
 
     }
 
