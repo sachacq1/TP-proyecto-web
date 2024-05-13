@@ -53,9 +53,9 @@ header a:hover {
 }
 
 .banner div {
-    width: 70%;
+    width: 40%;
     color: var(--second-color);
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 .banner h1 {
@@ -340,8 +340,8 @@ footer li a {
 
 .whatsapp {
     position: fixed;
-    top: 70%;
-    left: 90%;
+    top: 65%;
+    left: 85%;
     transition: 0.3s transform;
 }
 
@@ -363,29 +363,36 @@ footer li a {
         left: 70%;
     }
 
-    @media (max-width:440px) {
-
-        .cont-card,
-        .cont-cards {
-            display: grid;
-            grid-template-columns: 1fr
-        }
-
-        .banner h1 {
-            font-size: 30px;
-        }
-
-        .banner p {
-            font-size: 15px;
-        }
-
-        .banner img {
-            width: 50%;
-            height: 50%;
-        }
-
-        .whatsapp {
-            top: 80%;
-            left: 70%;
-        }
+    .banner img {
+        width: 50%;
+        height: 50%;
     }
+
+}
+
+@media (max-width:440px) {
+
+    .cont-card,
+    .cont-cards {
+        display: grid;
+        grid-template-columns: 1fr
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .banner p {
+        font-size: 15px;
+    }
+
+    .banner img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .whatsapp {
+        top: 80%;
+        left: 70%;
+    }
+}
