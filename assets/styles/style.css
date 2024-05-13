@@ -363,31 +363,31 @@ footer li a {
         top: 75%;
         left: 70%;
     }
+}
 
-    @media (max-width:440px) {
+@media (max-width:480px) {
 
-        .cont-card,
-        .cont-cards {
-            display: grid;
-            grid-template-columns: 1fr
-        }
+    .cont-card,
+    .cont-cards {
+        display: grid;
+        grid-template-columns: 1fr
+    }
 
-        .banner h1 {
-            font-size: 30px;
-        }
+    .banner h1 {
+        font-size: 30px;
+    }
 
-        .banner p {
-            font-size: 15px;
-        }
+    .banner p {
+        font-size: 15px;
+    }
 
-        .banner img {
-            width: 50%;
-            height: 50%;
-        }
+    .banner img {
+        width: 50%;
+        height: 50%;
+    }
 
-        .whatsapp {
-            top: 80%;
-            left: 70%;
-        }
+    .whatsapp {
+        top: 80%;
+        left: 70%;
     }
 }
